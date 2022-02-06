@@ -1,27 +1,48 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div>
       <Nav justify variant="tabs" defaultActiveKey="/home">
         <Nav.Item>
-          <Nav.Link className="py-4" to="/home" eventKey="/home">
+          <Nav.Link
+            as={Link}
+            to="/home"
+            className="text-dark fs-4 fw-bold py-4"
+            eventKey="/home"
+          >
             Home
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="py-4" to="/courses" eventKey="/courses">
+          <Nav.Link
+            className="text-dark fs-4 fw-bold py-4"
+            as={Link}
+            to="/courses"
+            eventKey="/courses"
+          >
             Courses
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="py-4" to="/students" eventKey="/students">
+          <Nav.Link
+            className="text-dark fs-4 fw-bold py-4"
+            as={Link}
+            to="/students"
+            eventKey="/students"
+          >
             Students
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="py-4" to="/about-us" eventKey="/about-us">
+          <Nav.Link
+            className="text-dark fs-4 fw-bold py-4"
+            as={Link}
+            to="/about-us"
+            eventKey="/about-us"
+          >
             About Us
           </Nav.Link>
         </Nav.Item>
