@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
-      <Nav justify variant="tabs" defaultActiveKey="/home">
+    <div className="sticky-top">
+      <Nav justify variant="tabs">
         <Nav.Item>
           <Nav.Link
             as={Link}
