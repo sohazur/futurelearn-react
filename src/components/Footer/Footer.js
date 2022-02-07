@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-dark bg-gradient p-4 fixed-bottom text-white">
+    <div className="bg-dark bg-gradient p-4 text-white">
       <small>
         Developed by{" "}
         <a
