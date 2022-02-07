@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "courseName": "Communicating with Diverse Audiences",
+    "courseFee": 350,
+    "duration": "3 weeks",
+    "img": "https://ugc.futurelearn.com/uploads/images/ed/be/thumbnail_edbea8bd-1c7f-4b3d-9e2b-673329fa7b53.jpg",
+    "description": "Explore what drives the way you communicate and develop communication strategies for successful communication in diverse settings.",
+    "rating": 4.6
+  },
+  {
+    "id": 2,
+    "courseName": "Digital Marketing: Storytelling in the New Communication Landscape",
+    "courseFee": 250,
+    "img": "https://ugc.futurelearn.com/uploads/images/df/89/thumbnail_df8992d9-5fed-4097-b7f5-aec698676834.jpg",
+    "rating": 4.8,
+    "description": "Get under the bonnet of social media and explore digital storytelling with Dines, founder and creative director of Studio Blup.",
+    "duration": "2 weeks"
+  },
+  {
+    "id": 3,
+    "courseName": "University Preparation Course: Getting Ready for Success at University",
+    "courseFee": 250,
+    "img": "https://ugc.futurelearn.com/uploads/images/3d/47/thumbnail_3d47c398-117d-4b9a-a204-28297fc4ceda.jpg",
+    "rating": 4.8,
+    "description": "Reflect on the differences between university and school or college education and get prepared for success.",
+    "duration": "3 weeks"
+  },
+  {
+    "id": 4,
+    "courseName": "Fashion and Sustainability: Understanding Luxury Fashion in a Changing World",
+    "courseFee": 300,
+    "img": "https://ugc.futurelearn.com/uploads/images/33/16/thumbnail_33162e34-2728-467c-8a35-904f92d51da1.jpg",
+    "rating": 4.9,
+    "description": "Get an introduction to issues, agendas and contexts relating to fashion and sustainability in a changing world.",
+    "duration": "6 weeks"
+  },
+  {
+    "id": 5,
+    "courseName": "Nature Connectedness with the University of Derby",
+    "courseFee": 280,
+    "img": "https://ugc.futurelearn.com/uploads/images/94/b7/thumbnail_94b7fdbf-a387-40ad-a35a-552628e08e92.jpg",
+    "rating": 4.2,
+    "description": "Learn to establish a new relationship with nature to help improve your wellbeing and tackle larger issues such as climate change.",
+    "duration": "4 weeks"
+  },
+  {
+    "id": 6,
+    "courseName": "Foundations of Spanish for Global Communication",
+    "courseFee": 150,
+    "img": "https://ugc.futurelearn.com/uploads/images/eb/a3/thumbnail_eba342db-f5db-4468-89ec-a82d1ddda4da.jpg",
+    "rating": 4.8,
+    "description": "Suitable even for beginners, this course from the Modern Language Centre will get you well versed in the art of speaking Spanish.",
+    "duration": "2 weeks"
+  },
+  {
+    "id": 7,
+    "courseName": "Building a Future with Robots",
+    "courseFee": 180,
+    "img": "https://ugc.futurelearn.com/uploads/images/4c/d0/thumbnail_4cd06921-4607-4f5c-9dbe-c6d80f6f777b.jpg",
+    "rating": 4.8,
+    "description": "Explore the everyday roles robots will play in the future, from job automation and medical science to our homes and cars.",
+    "duration": "3 weeks"
+  },
+  {
+    "id": 8,
+    "courseName": "Electrical Engineering: Sensing, Powering and Controlling",
+    "courseFee": 300,
+    "img": "https://ugc.futurelearn.com/uploads/images/be/26/thumbnail_be261cc4-691a-40e9-8f32-248df64fbca5.jpg",
+    "rating": 4.2,
+    "description": "Get a taste of an electrical engineering degree. Build your confidence in communicating ideas and using technical vocabulary.",
+    "duration": "3 weeks"
+  }
+]
