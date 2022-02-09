@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Manika",
+    "country": "India",
+    "quote": "FutureLearn has helped me to meet people from all over the world and learn about topics I never thought I could.",
+    "img": "https://assets.futurelearn.com/packs/app/assets/images/bc/manika_cropped_version-d76d54b4a1cf2f8bc56f08b3d2077577.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Kose",
+    "country": "South Sudan",
+    "quote": "It’s a wonderful place to enhance knowledge and skills. Its capability to partner with organisations like the British Council helped me and others with little financial setup to develop new talents in computing.",
+    "img": "https://assets.futurelearn.com/packs/app/assets/images/bc/kose-c8b67c808f96c603c4965352b4d4bce6.jpg"
+  }
+]
