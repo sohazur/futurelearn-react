@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Courses></Courses>} />
           <Route exact path="/home" element={<Courses></Courses>} />
+          <Route exact path="/courses" element={<Courses></Courses>} />
           <Route exact path="*" element={<NotFound></NotFound>} />
         </Routes>
       </div>

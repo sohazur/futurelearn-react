@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import Course from "../Course/Course";
 
 const Courses = () => {
@@ -8,13 +9,16 @@ const Courses = () => {
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);
-  console.log(courses);
   return (
-    <div>
-      {courses.map((course) => (
-        <Course key={course.id} courses={course}></Course>
-      ))}
-    </div>
+    <Container>
+      <Row>
+        {courses.map((course) => (
+          <Col key={course.id} className="g-5" sm={12} md={6} lg={4}>
+            <Course courses={course}></Course>
+          </Col>
+        ))}
+      </Row>
+    </Container>
   );
 };
 
