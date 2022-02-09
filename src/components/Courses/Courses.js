@@ -12,7 +12,7 @@ const Courses = () => {
   return (
     <div>
       {courses.map((course) => (
-        <Course key={courses.id} courses={courses}></Course>
+        <Course key={course.id} courses={course}></Course>
       ))}
     </div>
   );

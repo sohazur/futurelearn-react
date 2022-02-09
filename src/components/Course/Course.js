@@ -2,16 +2,22 @@ import React from "react";
 import { Button, Card } from "react-bootstrap";
 
 const Course = (props) => {
+  const { courseName, courseFee, duration, img, description, rating } =
+    props.courses;
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={img} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{courseName}</Card.Title>
+        <h5>Review: {rating}/5</h5>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {description}
+          <div>
+            <p>Fee: ${courseFee}</p>
+            <p>{duration}</p>
+          </div>
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Find out more</Button>
       </Card.Body>
     </Card>
   );
