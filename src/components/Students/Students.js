@@ -10,8 +10,9 @@ const Students = () => {
   }, []);
   return (
     <div>
+      <h2>Meet the learners worldwide</h2>
       {students.map((student) => (
-        <Student key={student.id}></Student>
+        <Student key={student.id} student={student}></Student>
       ))}
     </div>
   );
