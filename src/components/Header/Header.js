@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="sticky-top">
+    <div className="mb-5">
       <Nav justify variant="tabs">
         <Nav.Item>
           <Nav.Link

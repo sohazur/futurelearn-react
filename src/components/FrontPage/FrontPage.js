@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import FrontPageCourses from "../FrontpageCourses/FrontPageCourses";
+import Students from "../Students/Students";
 import "./FrontPage.css";
 
 const FrontPage = () => {
@@ -23,14 +24,16 @@ const FrontPage = () => {
           />
         </Col>
       </Row>
-      <Container>
-        <Row>
-          <Col>
+      <Container className="mt-5">
+        <Row className="g-5">
+          <Col lg={12}>
             <Row>
               <FrontPageCourses></FrontPageCourses>
             </Row>
           </Col>
-          <Col></Col>
+          <Col lg={12}>
+            <Students></Students>
+          </Col>
         </Row>
       </Container>
     </div>

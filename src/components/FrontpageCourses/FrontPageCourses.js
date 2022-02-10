@@ -12,9 +12,9 @@ const FrontPageCourses = () => {
   return (
     <>
       {courses
-        .filter((course) => course.id <= 4)
+        .filter((course) => course.id <= 6)
         .map((course) => (
-          <Col key={course.id} className="g-5 m-auto" sm={12} md={12} lg={5}>
+          <Col key={course.id} className="g-5 m-auto" sm={12} md={6} lg={4}>
             <Course courses={course}></Course>
           </Col>
         ))}
