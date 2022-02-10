@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# FutureLearn React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The live website is [Available here!](https://futurelearn-sohazur.netlify.app/)
+
+## Things you can do:
+
+- You can see avaiable courses from FutureLearn
+- You can see what students say about FutureLearn
+- You can see information about FutureLearn
 
 ## Available Scripts
 
