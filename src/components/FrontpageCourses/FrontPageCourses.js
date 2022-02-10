@@ -11,6 +11,7 @@ const FrontPageCourses = () => {
   }, []);
   return (
     <>
+      {/* Loading only six courses */}
       {courses
         .filter((course) => course.id <= 6)
         .map((course) => (

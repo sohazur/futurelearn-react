@@ -24,6 +24,7 @@ const FrontPage = () => {
           />
         </Col>
       </Row>
+      {/* Courses and Studenst in Front Page */}
       <Container className="mt-5">
         <Row className="g-5">
           <Col lg={12}>

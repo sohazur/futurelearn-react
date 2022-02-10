@@ -4,6 +4,7 @@ import Course from "../Course/Course";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
+  // Fetching fake data for courses
   useEffect(() => {
     fetch("./fakeData.JSON")
       .then((res) => res.json())

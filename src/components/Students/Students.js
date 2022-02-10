@@ -3,6 +3,7 @@ import Student from "../Student/Student";
 
 const Students = () => {
   const [students, setStudents] = useState([]);
+  //   Fetching fake data for students
   useEffect(() => {
     fetch("./students.JSON")
       .then((res) => res.json())
