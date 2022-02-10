@@ -1,10 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import FrontPageCourses from "../FrontpageCourses/FrontPageCourses";
 import "./FrontPage.css";
 
 const FrontPage = () => {
   return (
     <div>
+      {/* Banner for the front page */}
       <Row>
         <Col className="my-lg-5 my-md-4" sm={12} md={7} lg={8}>
           <h1>This is Future Learning</h1>
@@ -23,7 +25,11 @@ const FrontPage = () => {
       </Row>
       <Container>
         <Row>
-          <Col></Col>
+          <Col>
+            <Row>
+              <FrontPageCourses></FrontPageCourses>
+            </Row>
+          </Col>
           <Col></Col>
         </Row>
       </Container>
